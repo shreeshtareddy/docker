@@ -45,8 +45,14 @@ bash
 Copy
 Edit
 docker run -d -p 5000:5000 --name flask-container my-python-app
+
+![Screenshot 2025-04-14 193651](https://github.com/user-attachments/assets/788d86e3-f021-4c47-bdfe-83efc2985a5d)
+
+
 5. Check the App in Docker Desktop
 Open Docker Desktop and go to the Containers & Apps tab:
+
+
 
 ✅ See flask-container running
 
@@ -65,6 +71,8 @@ Edit
 http://localhost:5000
 You should see: Hello from Docker!
 
+![Screenshot 2025-04-14 193558](https://github.com/user-attachments/assets/4def6299-36e8-4a07-a91f-b5a570352b70)
+
 🧰 Useful Docker Commands
 bash
 Copy
@@ -72,8 +80,15 @@ Edit
 # List running containers
 docker ps
 
+
+
+
 # List all containers (including stopped)
 docker ps -a
+
+
+
+![Screenshot 2025-04-14 193638](https://github.com/user-attachments/assets/e74c8031-77e8-43f9-ae2a-58110d71bed8)
 
 # View logs
 docker logs flask-container
@@ -93,6 +108,12 @@ Access logs and CLI	Click container → Logs / CLI
 Manage images	Images tab
 Manage volumes	Volumes tab
 Start/Stop/Delete	Buttons in container row
+
+
+
+![Screenshot 2025-04-14 193534](https://github.com/user-attachments/assets/a8c06c57-a286-4c2c-a632-f3291a1172c3)
+
+
 🧼 Clean Up
 bash
 Copy
@@ -103,6 +124,4 @@ docker rm flask-container
 
 # Remove image
 docker rmi my-python-app
-📝 License
-This project is open-source and free to use under the MIT License.
 
